@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite" thread-count="2" parallel="methods">
+    <test verbose="2" preserve-order="true" name="D:/Projects/TestAutomation">
+        <classes>
+            <class name="com.tests.TestSuite">
+<!--                <methods>-->
+<!--                    <include name="test01"/>-->
+<!--                </methods>-->
+            </class>
+        </classes>
+    </test>
+</suite>
